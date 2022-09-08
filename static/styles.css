@@ -1,0 +1,44 @@
+html, body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #444444;
+  font-size: 20pt;
+  background-color: #FAFAFA;
+  height: 100%;
+}
+
+#wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+header {
+  flex: 0 1 auto;
+  background-color: #4287f5;
+}
+
+#chatDetails {
+  display: inline-block;
+}
+
+#chatName {
+  font-weight: "bold";
+}
+
+#chatName, small {
+  line-height: 1px;
+  display: inline-block;
+}
+
+#chats {
+  flex: 1 1 auto;
+  overflow-y: scroll;
+}
+
+footer {
+  flex: 0 1 20px;
+}
+
+#chatBox {
+  display: inline-block;
+}
